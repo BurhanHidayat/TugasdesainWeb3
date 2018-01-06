@@ -1,0 +1,352 @@
+*{
+	padding: 0; margin: 0;
+}
+
+h2{
+	font-family: 'Righteous', cursive;
+}
+p{
+	font-family: 'Voltaire', sans-serif;
+	color: #DDDDDD;
+	/*margin-right: 200px;*/
+}
+small{
+	color: #b69877
+}
+small a,
+p a{
+	color: #ddd ;
+	text-decoration: none;
+}
+/*header*/
+header{
+	background: #5b264e;
+	padding: 10 px 20 px;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+header a{
+	color: #dddddd;
+	text-decoration: none;
+}
+header img{
+	float: left;
+}
+header h1{
+	margin-top: 20 px;
+	margin-left: 80 px;
+	font-family: 'Righteous', cursive;
+}
+/*content*/
+.one{
+	background: url('https://static.pexels.com/photos/221341/pexels-photo-221341.jpeg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center; 
+	background-size: auto;
+}
+.one .page-cortainer{
+	position: absolute;
+	bottom: 100 px;
+	margin-left: -400 px;
+	left: 50 %;
+	margin-bottom: 150 px;
+	max-width: 650 px;
+}
+.one .page-cortainer h2{
+	font-size:  4 em;
+}
+.one .page-cortainer p{
+	padding: 20 px 0;
+	line-height: 1.5 em;
+}
+.two{
+	background-color: white;
+}
+.two .page-cortainer{
+	position: absolute;
+	bottom: 100 px;
+	margin-left: -400 px;
+	left: 50 %;
+	margin-bottom: 150 px;
+	max-width: 650 px;
+}
+.two .page-cortainer h2{
+	font-size:  4 em;
+}
+.two .page-cortainer p{
+	padding: 20 px 0;
+	line-height: 1.5 em;
+}
+.three{
+	background-color: white;
+}
+.three .page-cortainer{
+	position: absolute;
+	bottom: 100 px;
+	margin-left: -400 px;
+	left: 50 %;
+	margin-bottom: 150 px;
+	max-width: 650 px;
+}
+.three .page-cortainer h2{
+	font-size:  4 em;
+}
+.three .page-cortainer p{
+	padding: 20 px 0;
+	line-height: 1.5 em;
+}
+
+.four{
+	background-color: white;
+}
+.four .page-cortainer{
+	position: absolute;
+	bottom: 100 px;
+	margin-left: -400 px;
+	left: 50 %;
+	margin-bottom: 150 px;
+	max-width: 650 px;
+}
+.four .page-cortainer h2{
+	font-size:  4 em;
+}
+.four .page-cortainer p{
+	padding: 20 px 0;
+	line-height: 1.5 em;
+}
+
+.hover-effect > span > span:nth-child(3) {
+    top: 28%;
+    height: 44%;
+    width: inherit;
+    border-style: none solid none solid;
+}
+
+.navbar-default {
+    text-align: center;
+}
+
+a.hover-effect {
+    margin: 0 5px;
+}
+.top-nav a {
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    text-decoration: none;
+}
+.hover-effect {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    border-style: none;
+    height: 58px;
+    display: inline-block;
+}
+.hover-effect {
+    width: 110px;
+    background-color: transparent;
+    cursor: pointer;
+    border-color: #FFF;
+}
+
+.hover-effect span:nth-child(1) {
+    color: #FFF;
+}
+.hover-effect > :first-child {
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+}
+.hover-effect > span > span:nth-child(3), .hover-effect::before, .hover-effect::after, .hover-effect > :first-child, .hover-effect > :first-child::before, .hover-effect > :first-child::after {
+    border-color: inherit;
+    display: block;
+    -moz-transition: border-color 0.3s ease;
+    -webkit-transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease;
+}
+.hover-effect span {
+    position: absolute;
+    box-sizing: border-box;
+    display: block;
+}
+.hover-effect span {
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.53);
+    border-color: transparent;
+    border: none;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+    position: fixed;
+    z-index: 99999;
+    border-radius: 0;
+}
+
+.hover-effect > span > span:nth-child(1) {
+    opacity: 1;
+    top: 18px;
+}
+.hover-effect span:nth-child(1) {
+    color: #FFF;
+}
+.hover-effect > span span {
+    width: inherit;
+    text-align: center;
+    -moz-transition: opacity 0.6s ease, top 0.5s ease;
+    -webkit-transition: opacity 0.6s ease, top 0.5s ease;
+    transition: opacity 0.6s ease, top 0.5s ease;
+	opacity: 0;
+}
+.hover-effect span {
+    position: absolute;
+    box-sizing: border-box;
+    display: block;
+}
+.hover-effect span {
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.hover-effect {
+    cursor: pointer;
+}
+
+
+
+element {
+
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -30px;
+}
+.navbar-default .navbar-brand {
+
+    color: #fff200;
+    font-family: 'Sigmar One', cursive;
+    font-size: 40px;
+	font-weight: 900;
+}
+
+.container {
+    width: 1170px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 150px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.contact {
+	background: url("../assets/images/contact.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.contact-form {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact-form input.text, .contact-form textarea, .contact-form input.more_btn, .newsletter .email {
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 15px;
+	background-color: transparent;
+	border: 1px solid #777;
+	border-radius: 2px;
+	outline: none;
+	color: black;
+}
+
+.contact-form textarea {
+	height: 150px;
+}
+
+.contact-form input.more_btn, .newsletter .email {
+	margin: 0;
+}
+
+.contact-form p {
+	margin: 40px 0 20px;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.newsletter {
+	position: relative;
+}
+
+.newsletter .email {
+	padding: 15px 60px 15px 15px;
+	margin-bottom: 0;
+}
+
+.newsletter .submit {
+	width: 50px;
+	height: 50px;
+	background-image: url('../assets/images/subscribe.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	background-color: black;
+	top: 1px;
+	right: 1px;
+	border: 1px solid;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-transition: all 0.2s ease 0s;
+	-moz-transition: all 0.2s ease 0s;
+	-o-transition: all 0.2s ease 0s;
+	-ms-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+}
